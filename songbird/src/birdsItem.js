@@ -3,7 +3,10 @@ import React from 'react';
 class BirdsItem extends React.Component {
   render() {
     return (
-      <li>{this.props.birdsItem.name}</li>
+      <li className="birds-item">
+        <span className="li-btn"></span>
+        {this.props.birdsItem.name}
+      </li>
     )
   }
 }

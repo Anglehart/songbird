@@ -10,7 +10,9 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Header />
-        <BirdsList birdsData={birdsData[0]} />
+        <div className="second-row">
+          <BirdsList birdsData={birdsData[0]} />
+        </div>
       </div>
     );
   }
