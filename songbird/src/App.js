@@ -19,7 +19,7 @@ class App extends React.Component {
     return Math.floor(Math.random() * max) + 1;
   }
   
-  handleClick(id) {
+  handleClick = (id) => {
     this.setState({userChoice: id});
   }
   
@@ -29,7 +29,7 @@ class App extends React.Component {
       <div className="wrapper">
         <Header />
         <div className="second-row">
-          <BirdsList birdsData={birdsData[0]} onChoice={this.handleClick.bind(this)} />
+          <BirdsList birdsData={birdsData[0]} onChoice={this.handleClick} />
           <BirdInfo birdsData={birdsData[0]} userChoice={userChoice} />
         </div>
       </div>

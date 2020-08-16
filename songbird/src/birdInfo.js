@@ -3,7 +3,7 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
 class BirdInfo extends React.Component {  
-  Intro(props) {
+  Intro() {
     return (
       <div className="bird-info-wrapper">
         <div className="bird-info">
@@ -17,9 +17,8 @@ class BirdInfo extends React.Component {
   render(props) {
     const userChoice = this.props.userChoice - 1;
     const data = this.props.birdsData;
-    if (userChoice < 0) {
-      return <this.Intro />
-    } 
+    if (userChoice < 0) return <this.Intro />
+    
     return (
       <div className="bird-info-wrapper">
         <div className="bird-info">
