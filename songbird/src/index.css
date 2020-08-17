@@ -23,7 +23,7 @@ code {
   max-width: 1140px;
 }
 header {
-  
+
 }
 h5 {
   font-size: 20px;
@@ -126,9 +126,6 @@ h5 {
 .bird-name {
   width: calc(100% - 250px);
 }
-.rhap_additional-controls {
-  display: none !important;
-}
 .bird-name h4 {
   font-weight: 500;
   font-size: 20px;
@@ -144,4 +141,16 @@ h5 {
 .bird-description p{
   font-size: 15px;
   text-align: justify;
+}
+/*Audio*/
+.rhap_additional-controls {
+  display: none !important;
+}
+.rhap_container {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+.rhap_time {
+  color: #fff;
 }
