@@ -17,7 +17,6 @@ class App extends React.Component {
       isWon: false,
       roundScore: 5,
       totalScore: 0,
-      clicked: [],
     };
     this.correctId = this.getRandomNumber(anthemsData[this.state.currentRound].length);
   }
@@ -28,42 +27,50 @@ class App extends React.Component {
   
   handleClick = (id) => {
     this.setState({userChoice: id});
-    
-    if (!this.state.clicked.includes(id)) {
-      this.state.clicked.push(id);
-      
+    if(!this.state.isWon) {  
       if (id === this.correctId) {
-        let totalScore = this.state.totalScore + this.state.roundScore;
-        this.setState({totalScore});
+        anthemsData[this.state.currentRound][id - 1].correctClick = 0;
+        this.setState({totalScore: this.state.totalScore + this.state.roundScore});
         this.setState({isWon: true});
       } else {
-        let roundScore = this.state.roundScore - 1;
-        this.setState({roundScore});
+        anthemsData[this.state.currentRound][id - 1].correctClick = 1;
+        this.setState({roundScore: this.state.roundScore - 1});
       }
     }
+    console.log(this.state.totalScore)
   }
   
   nextRound() {
-    let currentRound = this.state.currentRound + 1;
-    this.setState({roundScore: 0});
-    this.setState({currentRound});
-    this.setState({clicked: []});
+    this.correctId = this.getRandomNumber(anthemsData[this.state.currentRound].length);
+    this.setState({roundScore: 5});
+    this.setState({currentRound: this.state.currentRound + 1});
     this.setState({isWon: false});
     this.setState({userChoice: 0});
   }
   
   render() {
-    console.log(this.correctId);
     const userChoice = this.state.userChoice;
     return (
       <div className="wrapper">
-        <Header score={this.state.totalScore}/>
+        <Header score={this.state.totalScore} round={this.state.currentRound + 1}/>
         <div className="first-row">
-          <AnthemQuestion correctItem={anthemsData[this.state.currentRound][this.correctId - 1]} userChoice={userChoice} isWon={this.isWon} />
+          <AnthemQuestion 
+            correctItem={anthemsData[this.state.currentRound][this.correctId - 1]} 
+            userChoice={userChoice} 
+            isWon={this.state.isWon} 
+          />
         </div>
         <div className="second-row">
-          <AnthemsList anthemsData={anthemsData[this.state.currentRound]} onChoice={this.handleClick} correctId={this.correctId} isWon={this.isWon}/>
-          <AnthemInfo anthemsData={anthemsData[this.state.currentRound]} userChoice={userChoice} />
+          <AnthemsList 
+            anthemsData={anthemsData[this.state.currentRound]} 
+            onChoice={this.handleClick} 
+            correctId={this.state.correctId} 
+            isWon={this.state.isWon}
+          />
+          <AnthemInfo 
+            anthemsData={anthemsData[this.state.currentRound]} 
+            userChoice={userChoice} 
+          />
         </div>
         <div>
           <button onClick={this.nextRound.bind(this)}>Следующий раунд</button>
