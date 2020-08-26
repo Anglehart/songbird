@@ -2,13 +2,13 @@ import React from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
-class BirdInfo extends React.Component {  
+class AnthemInfo extends React.Component {  
   Intro() {
     return (
-      <div className="bird-info-wrapper">
-        <div className="bird-info">
+      <div className="anthem-info-wrapper">
+        <div className="anthem-info">
           <p>Послушайте плеер.</p>
-          <p>Выберите птицу из списка</p>
+          <p>Выберите страну из списка.</p>
         </div>
       </div>
     );
@@ -16,14 +16,14 @@ class BirdInfo extends React.Component {
   
   render(props) {
     const userChoice = this.props.userChoice - 1;
-    const data = this.props.birdsData;
+    const data = this.props.anthemsData;
     if (userChoice < 0) return <this.Intro />
     
     return (
-      <div className="bird-info-wrapper">
-        <div className="bird-info">
-          <img className="bird-image" alt={data[userChoice].name} src={data[userChoice].image} />
-          <div className="bird-name">
+      <div className="anthem-info-wrapper">
+        <div className="anthem-info">
+          <img className="anthem-image" alt={data[userChoice].name} src={data[userChoice].image} />
+          <div className="anthem-name">
             <h4>{data[userChoice].name}</h4>
             <p>{data[userChoice].species}</p>
             <AudioPlayer 
@@ -33,7 +33,7 @@ class BirdInfo extends React.Component {
             />
           </div>  
         </div>
-        <div className="bird-description">
+        <div className="anthem-description">
           <p>{data[userChoice].description}</p>
         </div>
       </div>
@@ -41,4 +41,4 @@ class BirdInfo extends React.Component {
   }
 }
 
-export default BirdInfo;
+export default AnthemInfo;

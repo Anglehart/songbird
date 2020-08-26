@@ -60,21 +60,24 @@ h5 {
 .menu-item-active {
   background-color: #00bc8c;
 }
+.first-row {
+  margin-bottom: 25px;
+}
 .second-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.birds-list-wrapper, .bird-info-wrapper {
+.anthems-list-wrapper, .anthem-info-wrapper {
   width: calc(50% - 10px);
 }
-.birds-list {
+.anthems-list {
   margin: 0;
   padding: 0;
   list-style: none;
   width: 100%;
 }
-.birds-item {
+.anthems-item {
   padding: .85rem 1.25rem;
   background-color: #303030;
   border: 1px solid #555;
@@ -82,18 +85,18 @@ h5 {
   display: block;
   cursor: pointer;
 }
-.birds-item:hover {
+.anthems-item:hover {
   background-color: #444;
 }
-.birds-item:first-child {
+.anthems-item:first-child {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-.birds-item:last-child {
+.anthems-item:last-child {
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
-.li-btn {
+.li-btn, .li-btn-correct, .li-btn-wrong {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -103,42 +106,52 @@ h5 {
   transition: .1s;
   background-color: #444;
 }
-.bird-info-wrapper {
+.li-btn-correct {
+  background-color: #00bc8c;
+}
+.li-btn-wrong {
+  background-color: #d62c1a;
+}
+.anthem-info-wrapper, .anthems-question-wrapper {
   background-color: #303030;
   border: 1px solid #555;
   border-radius: 4px;
   padding: 20px;
   box-sizing: border-box;
 }
-.bird-info {
+.anthems-question-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.anthem-info {
   margin: 0;
   position: relative;
   display: flex;
   justify-content: space-between;
 }
-.bird-image {
+.anthem-image {
   display: block;
   width: 200px;
   height: 155px;
   border-radius: 10px;
   object-fit: cover;
 }
-.bird-name {
+.anthem-name {
   width: calc(100% - 250px);
 }
-.bird-name h4 {
+.anthem-name h4 {
   font-weight: 500;
   font-size: 20px;
   margin: 0 0 7px 0;
   border-bottom: 1px solid #646363;
   padding-bottom: 7px;
 }
-.bird-name p {
+.anthem-name p {
   margin: 0 0 7px 0;
   padding-bottom: 7px;
   border-bottom: 1px solid #646363;
 }
-.bird-description p{
+.anthem-description p{
   font-size: 15px;
   text-align: justify;
 }
@@ -153,4 +166,19 @@ h5 {
 }
 .rhap_time {
   color: #fff;
+}
+.rhap_volume-controls {
+  justify-content: right !important;
+}
+
+.question-image-audio {
+  width: 100%;
+  margin-left: 25px;
+}
+.question-image-audio h3 {
+  font-size: 24px;
+  border-bottom: 1px solid #646363;
+  font-weight: normal;
+  margin-top: 10px;
+  padding-bottom: 15px;
 }

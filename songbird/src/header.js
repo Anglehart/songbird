@@ -6,7 +6,7 @@ class Header extends React.Component {
       <header>
         <div className="logo-score">
           <div className="logo"></div>
-          <h5>Score: <span className="score">10</span></h5>
+          <h5>Очки: <span className="score">{this.props.score}</span></h5>
         </div>
         <ul className="menu">
           <li className="menu-item menu-item-active">Разминка</li>
