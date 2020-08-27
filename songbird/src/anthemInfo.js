@@ -7,8 +7,7 @@ class AnthemInfo extends React.Component {
     return (
       <div className="anthem-info-wrapper">
         <div className="anthem-info">
-          <p>Послушайте плеер.</p>
-          <p>Выберите страну из списка.</p>
+          <p>Послушайте плеер.<br />Выберите страну из списка.</p>
         </div>
       </div>
     );

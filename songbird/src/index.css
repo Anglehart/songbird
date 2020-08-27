@@ -185,3 +185,40 @@ h5 {
   margin-top: 10px;
   padding-bottom: 15px;
 }
+.next-btn {
+  width: 100%;
+  margin: 25px 0px;
+  background-color: #303030;
+  border: 1px solid #444 !important;
+  color: #fff;
+  cursor: auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+}
+.next-btn-active {
+  background-color: #f16b30;
+  cursor: pointer;
+}
+.next-btn:focus {
+  outline: none;
+}
+.hide {
+  display: none;
+}
+.final-block {
+  padding: 30px 25px;
+  background-color: #303030;
+  border-radius: 4px;
+  border: 1px solid #444 !important;
+}
+.final-block h1, .final-block p {
+  text-align: center;
+}
+.final-btn {
+  background-color: #f16b30;
+  cursor: pointer;
+}

@@ -10,13 +10,15 @@ import './index.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.ROUNDS = anthemsData.length - 1;
     this.state = {
       currentRound: 0,
       correctId: 0,
       userChoice: 0,
       isWon: false,
-      roundScore: 5,
+      roundScore: this.ROUNDS,
       totalScore: 0,
+      endGame: 0,
     };
     this.correctId = this.getRandomNumber(anthemsData[this.state.currentRound].length);
   }
@@ -27,7 +29,7 @@ class App extends React.Component {
   
   handleClick = (id) => {
     this.setState({userChoice: id});
-    if(!this.state.isWon) {  
+    if(!this.state.isWon && anthemsData[this.state.currentRound][id - 1].correctClick === undefined) {  
       if (id === this.correctId) {
         anthemsData[this.state.currentRound][id - 1].correctClick = 0;
         this.setState({totalScore: this.state.totalScore + this.state.roundScore});
@@ -37,15 +39,26 @@ class App extends React.Component {
         this.setState({roundScore: this.state.roundScore - 1});
       }
     }
-    console.log(this.state.totalScore)
   }
   
   nextRound() {
     this.correctId = this.getRandomNumber(anthemsData[this.state.currentRound].length);
-    this.setState({roundScore: 5});
-    this.setState({currentRound: this.state.currentRound + 1});
+    this.setState({roundScore: this.ROUNDS});
     this.setState({isWon: false});
     this.setState({userChoice: 0});
+    if (this.state.currentRound === this.ROUNDS) {
+      this.setState({currentRound: 0});
+      anthemsData.forEach((item) => {
+        item.forEach((q) => q.correctClick = undefined);
+      });
+      this.setState({endGame: 1});
+    } else {
+      this.setState({currentRound: this.state.currentRound + 1});
+    }
+  }
+  endGame() {
+    this.setState({endGame: 0});
+    this.setState({totalScore: 0});
   }
   
   render() {
@@ -53,14 +66,14 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Header score={this.state.totalScore} round={this.state.currentRound + 1}/>
-        <div className="first-row">
+        <div className={this.state.endGame ? "hide" : "first-row"}>
           <AnthemQuestion 
             correctItem={anthemsData[this.state.currentRound][this.correctId - 1]} 
             userChoice={userChoice} 
             isWon={this.state.isWon} 
           />
         </div>
-        <div className="second-row">
+        <div className={this.state.endGame ? "hide" : "second-row"}>
           <AnthemsList 
             anthemsData={anthemsData[this.state.currentRound]} 
             onChoice={this.handleClick} 
@@ -72,8 +85,20 @@ class App extends React.Component {
             userChoice={userChoice} 
           />
         </div>
-        <div>
-          <button onClick={this.nextRound.bind(this)}>Следующий раунд</button>
+        <div className={this.state.endGame ? "hide" : ""}>
+          <button 
+            className={this.state.isWon ? 'next-btn next-btn-active' : 'next-btn'} 
+            disabled={!this.state.isWon} 
+            onClick={this.nextRound.bind(this)}
+          >Следующий раунд</button>
+        </div>
+        <div className={this.state.endGame ? "final-block" : "hide"}>
+          <h1>Поздравляем!</h1>
+          <p>Вы прошли викторину и набрали {this.state.totalScore} из 30 возможных баллов</p>
+          <button 
+            className='next-btn final-btn'
+            onClick={this.endGame.bind(this)}
+          >Начать сначала</button>
         </div>
       </div>
     );
