@@ -34,9 +34,11 @@ class App extends React.Component {
         anthemsData[this.state.currentRound][id - 1].correctClick = 0;
         this.setState({totalScore: this.state.totalScore + this.state.roundScore});
         this.setState({isWon: true});
+        new Audio('https://soundslibmp3.ru/sounds/1594805207_idea-3.mp3').play();
       } else {
         anthemsData[this.state.currentRound][id - 1].correctClick = 1;
         this.setState({roundScore: this.state.roundScore - 1});
+        new Audio('https://soundslibmp3.ru/sounds/1516816712_15.wav').play();
       }
     }
   }
