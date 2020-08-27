@@ -2,301 +2,301 @@ const birdsData = [
   [       
     {
       id: 1,
-      name: 'Ворон',
-      species: 'Corvus corax',
-      description: 'Ворон – крупная птица. Длина тела достигает 70 сантиметров, размах крыльев – до полутора метров. Вороны населяют окрестности Тауэра. В Англии бытует поверье, что в день, когда черные вороны улетят от Тауэра, монархия рухнет.',
-      image: 'https://live.staticflickr.com//65535//49298804222_474cfe8682.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3'
+      name: 'Беларусь',
+      species: 'Минск',
+      description: 'Название государства происходит от словосочетания «Белая Русь», известного с середины XIII века и употреблявшегося по отношению к различным регионам Руси. До конца XV века большинство упоминаний о «Белой Руси» (Alba Russіa) происходит из Западной Европы и относится к территории Новгородской республики.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg/800px-Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248268694_e02ade.mp3'
     },
     {
       id: 2,
-      name: 'Журавль',
-      species: 'Grus grus',
-      description: 'Звуки, издаваемые журавлем, похожи на звонкое «кур-лы – кур-лы». Журавли чаще всего поют дуэтом – одна птица начинает запев со слога «кур», а вторая подхватывает «лы». Если птица поёт одна, то она издает только звук «кур».',
-      image: 'https://live.staticflickr.com/65535/49221158846_b0b69a58f1.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC512582-190604_1087_Grus_tok.mp3'
+      name: 'Россия',
+      species: 'Москва',
+      description: 'Государство в Восточной Европе и Северной Азии. Территория России в её конституционных границах составляет 17 125 191 км²; население страны (в пределах её заявленной территории) составляет 146 748 590 чел. Занимает первое место в мире по территорииПерейти к разделу «#Географическое положение», шестое — по объёму ВВП по ППС и девятое — по численности населения',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248616639_cdf7ce.mp3'
     },
     {
       id: 3,
-      name: 'Ласточка',
-      species: 'Delichon urbicum',
-      description: 'Для ласточек характерно негромкое щебетание. Песни ласточек не смолкают на протяжении всего лета. Исследователи различают у птиц до 6 щебечущих звуков: «вит», «ви-вит», «чивит», «чиривит» и т.п. Ласточки любят петь дуэтом.',
-      image: 'https://live.staticflickr.com//65535//48539007512_5029d2a9a0.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489247-190724_09.10h_huiszwaluw_biesbosch_amaliahoeve_roep_100%2Bex_fouragerend_gezien_%20%282%29.mp3'
+      name: 'Казахстан',
+      species: 'Нур-Султан',
+      description: 'Государство в центре Евразии, бо́льшая часть которого относится к Азии, меньшая — к Европе. Площадь территории — 2 724 902 км². Население, по оценке государственного комитета по статистике на 1 апреля 2020 года, составляет 18 690 200 человек. Плотность населения является одной из самых низких: менее 6 человек на квадратный километр.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248379222_61102f.mp3'
     },
     {
       id: 4,
-      name: 'Козодой',
-      species: 'Caprimulgus europaeus',
-      description: 'Козодой – неприметная птица, известная благодаря своему голосу. Песня козодоя звучит как монотонная трель похожая на тарахтение мотоцикла. Такое дребезжание слышно от заката до рассвета, его тональность, частота и громкость изменяются. ',
-      image: 'https://live.staticflickr.com/65535/48456345286_dbc8530027.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC486956-190623_22.37h_nachtzwaluw_rechte%20heide_zang_ad%20_2ex_gezien_.mp3'
+      name: 'Украина',
+      species: 'Киев',
+      description: 'Государство в Восточной и, частично, Центральной Европе. Население, по итогам переписи 2001 года, составляло 48 240 902 постоянных жителя и 48 457 102 человека наличного населения, по оценкам государственной службы статистики Украины на 1 мая 2020 года — 41 636 584 постоянных жителя и 41 806 221 человек наличного населения',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1245512341_c7de7c.mp3'
     },
     {
       id: 5,
-      name: 'Кукушка',
-      species: 'Cuculus canorus',
-      description: 'Кукушку назвали так из-за особенностей ее песен. Звонкое «ку-ку» не спутать ни с какой другой птицей. Кукушки не строят гнезда, их потомство выращивают другие виды пернатых, которым кукушки подбрасывают свои яйца.',
-      image: 'https://live.staticflickr.com/65535/48377838151_e15f430ec1.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC501461-190616_08.13h_koekoek_brabantse%20biesbosch%20jantjesplaat_roep_1%20ex_ad%20m_ter%20plaatse%20zingend_gezien_.mp3'
+      name: 'Узбекистан',
+      species: 'Ташкент',
+      description: 'Государство, расположенное в центральной части Средней Азии. Узбекистан является нейтральным государством. Сопредельные государства: на востоке — Киргизия; на северо-востоке, севере и северо-западе — Казахстан; на юго-западе и юге — Туркмения; на юге — Афганистан и на юго-востоке — Таджикистан.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1920px-Flag_of_Uzbekistan.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248622840_086d56.mp3'
     },
     {
       id: 6,
-      name: 'Синица',
-      species: 'Parus major',
-      description: 'В щебетании синиц различают более 40 различных звуковых сочетаний. Поют они практически круглый год, немного затихая только зимой. Синицы настоящие санитары леса. Одна пара синиц в период гнездования оберегает от вредителей десятки деревьев.',
-      image: 'https://live.staticflickr.com//65535//49366042493_c48c81d58d.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/RFGQDPLDEC/XC518417-Kj%C3%B8ttmeis%20XC%20Helg%C3%B8ya%20Elias%20A.%20Ryberg20200108133922_079.mp3'
+      name: 'Кыргызстан',
+      species: 'Бишкек',
+      description: 'Государство в Центральной Азии, расположенное в западной и центральной части горной системы Тянь-Шань и на Памиро-Алае. На севере граничит с Казахстаном, на западе — с Узбекистаном, на юго-западе — с Таджикистаном, на востоке и юго-востоке — с Китаем.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1920px-Flag_of_Kyrgyzstan.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248463092_04c3b7.mp3'
     }
   ],
   [
     {
       id: 1,
-      name: 'Воробей',
-      species: 'Passer domesticus',
-      description: 'Воробьи являются самыми известными и узнаваемыми пернатыми. Их легко узнать по пестрому оперению и задорному чириканью. Воробьи относятся к синатропному виду — они селятся поблизости к человеческому жилищу.',
-      image: 'https://live.staticflickr.com//65535//49366595303_06cf65b07e.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/CXFHOPIVAS/XC503224-191020_0134.mp3'
+      name: 'Германия',
+      species: 'Берлин',
+      description: 'Государство в Центральной Европе. Площадь территории — 357 408,74 км². Численность населения на 31 декабря 2018 года — 83 019 200 жителей. Занимает 18-е место в мире по численности населения (2-е в Европе) и 62-е в мире по территории (8-е в Европе).',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1240924866_107f0d.mp3'
     },
     {
       id: 2,
-      name: 'Грач',
-      species: 'Corvus frugilegus',
-      description: 'Грачи очень умные и сообразительные птицы. С помощью клюва они создают и используют простейшие орудия. У грачей развит рефлекс на звуки трактора. Услышав «тарахтение», они летят на звук – трактор пашет землю, значит, в этом месте много корма.',
-      image: 'https://live.staticflickr.com//65535//49347123322_291c86b016.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC512540-gawron%20Suble%2019.12.19%20%2012.35.mp3'
+      name: 'Франция',
+      species: 'Париж',
+      description: 'Трансконтинентальное государство, включающее основную территорию в Западной Европе и ряд заморских регионов и территорий. Столица — Париж. Девиз Республики — «Свобода, равенство, братство», её принцип — правление народа, народом и для народа.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248635575_7adc6e.mp3'
     },
     {
       id: 3,
-      name: 'Галка',
-      species: 'Coloeus monedula',
-      description: 'Слово «галка» произошло из старославянского языка и переводится как «чёрный». Этим словом часто называют воронов или других черных птиц. Латинское название галки «monedula» связывают со словами монета за любовь птицы к блестящим и ярким вещам.',
-      image: 'https://live.staticflickr.com//65535//49237149586_993cf685c5.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC510498-Coloeus%20monedula_2019.11.13_11.55_01.mp3'
+      name: 'Италия',
+      species: 'Рим',
+      description: 'Государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны. Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км). ',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248378772_8ea1f8.mp3'
     },
     {
       id: 4,
-      name: 'Певчий дрозд',
-      species: 'Turdus philomelos',
-      description: 'Дрозд — лучший певец из отряда воробьиных. Песня состоит только из красивых звучных свистов и коротких трелей. Чаще всего её можно услышать в утреннее и вечернее время. Поют дрозды в течении всего периода гнездования.',
-      image: 'https://live.staticflickr.com/65535/48979125763_e2534f54bd.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC513326-190704_1146_TF-Glogow.mp3'
+      name: 'Испания',
+      species: 'Мадрид',
+      description: 'Суверенное государство на юго-западе Европы и частично в Африке, член Европейского союза и НАТО. Испания занимает бо́льшую часть (80 %) Пиренейского полуострова, а также Канарские и Балеарские острова, имеет общую площадь 504 782 км² (вместе с небольшими суверенными территориями на африканском побережье.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248378733_cb9a86.mp3'
     },
     {
       id: 5,
-      name: 'Сорока',
-      species: 'Pica pica',
-      description: 'Сорока очень трудолюбивая птица. Она строит до восьми гнёзд, а потом выбирает из них самое лучшее. Вход в гнездо сорок всегда обращен на юг, чтобы в жилище было теплее. Сороки являются единственными птицами, которые узнают себя в зеркале.',
-      image: 'https://live.staticflickr.com//65535//49360363066_ff02bb6a73.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC500868-Pica%20pica2019.08.23_09.18_02.mp3'
+      name: 'Польша',
+      species: 'Варшава',
+      description: 'Государство в Центральной Европе. Население по итогам 2015 года составляет 38 623 221 человек, территория — 312 679 км². Занимает 37-е место в мире по численности населения и 69-е по территории.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1920px-Flag_of_Poland.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248616450_381b0a.mp3'
     },
     {
       id: 6,
-      name: 'Сойка',
-      species: 'Garrulus glandarius',
-      description: 'Когда сойка волнуется, хохолок на её голове взъерошивается. Птица старается создать устрашающее зрелище. Сойки умеют имитировать голоса других птиц, животных и звуки, которые создает человек. На зиму они делают большие запасы желудей и орехов.',
-      image: 'https://live.staticflickr.com//65535//49369678956_9a7465c7f4.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/TFOGOENSTQ/XC501517-191008_1590%201300.%20Eichelh%C3%A4her%20D%2C%20NW%2C%20LEV.%20Stephan%20Risch.mp3'
+      name: 'Великобритания',
+      species: 'Лондон',
+      description: 'Одно из крупнейших государств Европы, ядерная держава с 1952 года (признанная в соответствии с Договором о нераспространении ядерного оружия 1968 года), постоянный член Совета Безопасности ООН, бывшая метрополия Британской империи; британский монарх также является главой 15 иных независимых государств и главой Содружества.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/800px-Flag_of_the_United_Kingdom.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1243455151_19ec9b.mp3'
     }
   ],
   [
     {
       id: 1,
-      name: 'Зяблик',
-      species: 'Fringilla coelebs',
-      description: 'В дикой природе насчитывается 450 видов зябликов. Зимой зяблики ведут стайный образ жизни. Иногда в их семьях можно увидеть воробьев. Запевают зяблики весной, с наступлением брачного периода. Их пение – это заливистые многоминутные рулады.',
-      image: 'https://live.staticflickr.com/65535/49143150817_2d3a2f6c1e.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC512407-150622_03%20zi%C4%99ba%20%282%29.mp3'
+      name: 'Китай',
+      species: 'Пекин',
+      description: 'Государство в Восточной Азии. Занимает третье место в мире по территории (9 598 962 км2), уступая России и Канаде, а по численности населения — свыше 1,395 млрд жителей — первое. Большинство населения — этнические китайцы, самоназвание — хань. ',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg',
+      audio: 'http://www.200stran.ru/media/country/1248379769_ebc25c.mp3'
     },
     {
       id: 2,
-      name: 'Клёст',
-      species: 'Loxia curvirostra',
-      description: 'Клестов называют «рождественскими» птицами. В естественных условиях они дают потомство зимой – в январе. Эти птицы утепляют свои гнезда мхом и шерстью животных, потому птенцам не холодно. В поисках шишек клесты могут улетать за 3500 км от гнезда.',
-      image: 'https://live.staticflickr.com//65535//49365470123_f2de66bb35.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/OTVUCEGYZN/XC495381-Kruisbek%20roep%20NHD%20290619.mp3'
+      name: 'Япония',
+      species: 'Токио',
+      description: 'Островное государство в Восточной Азии. Находится в Тихом океане к востоку от Японского моря, Китая, Северной и Южной Кореи, России. Занимает территорию от Охотского моря на севере до Восточно-Китайского моря и Тайваня на юге. Поэтическое название — Страна восходящего солнца',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248636434_b62444.mp3'
     },
     {
       id: 3,
-      name: 'Горлица',
-      species: 'Streptopelia turtur',
-      description: 'Горлица обитает в смешанных и широколиственных лесах, а также в городских парках и поселках. Птицы часто выбирают места жизни рядом с человеком и легко привыкают к людям. Благодаря мелодичному приятному пению горлиц часто разводят в домашних условиях.',
-      image: 'https://live.staticflickr.com/65535/48063004977_84252f9ceb.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC324106-Turkawka_Streptopelia_turtur_Poland_Jarek_Matusiak_2011625_07.mp3'
+      name: 'Южная Корея',
+      species: 'Сеул',
+      description: 'Государство в Восточной Азии. Площадь страны составляет 100 210 км², население, по оценке 2017 года — более 51 миллиона человек. Занимает сто седьмое место в мире по территории и двадцать седьмое по населению. Столица и крупнейший город — Сеул',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248636552_a6af2a.mp3'
     },
     {
       id: 4,
-      name: 'Дятел',
-      species: 'Dendrocopos major',
-      description: 'Дятел – заметная и шумная птица, часто живет рядом с человеком. С середины января до конца июня можно услышать «барабанную дробь» дятлов – трель от вибрации веток под быстрыми ударами клюва птицы. В хорошую погоду дробь слышна в радиусе 1,5 км.',
-      image: 'https://live.staticflickr.com/65535/49339376578_e933426455.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC518928-AB-017%20dzi%C4%99cio%C5%82%20du%C5%BCy%20agresja%20%282%29.mp3'
+      name: 'Северная Корея',
+      species: 'Пхеньян',
+      description: 'Расположено в северной части Корейского полуострова. Имеет сухопутную границу с Республикой Корея на юге, Китайской Народной Республикой на севере, Российской Федерацией на северо-востоке. С запада страна омывается Жёлтым морем, с востока — Японским морем.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1920px-Flag_of_North_Korea.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248636954_9f3cc3.mp3'
     },
     {
       id: 5,
-      name: 'Удод',
-      species: 'Upupa epops',
-      description: 'Удоды предпочитают жить на открытых ландшафтах с отдельными деревьями или рощами. Наиболее удобными для птицы являются лесостепь и саванна. Удод может выбирать места жительства рядом с человеком: пастбища, виноградники, фруктовые сады.',
-      image: 'https://live.staticflickr.com//65535//49226383598_6f8be86a06.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC477326-dudek%20%282%29.mp3'
+      name: 'Филиппины',
+      species: 'Манила',
+      description: 'Островное государство в Юго-Восточной Азии. Население, по оценке на март 2020 года, составляет 100 981 437 человек (прирост — 2 % в год), включая 2134 филиппинских работников посольств и консульств за границей, плотность населения составляет 337 человек на 1 кв. км, территория — 299 764 км².',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1920px-Flag_of_the_Philippines.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248635471_8ce545.mp3'
     },
     {
       id: 6,
-      name: 'Стриж',
-      species: 'Apus apus',
-      description: 'Стрижа можно увидеть практически в каждом уголке планеты. Они обитают как в лесных зонах, так и на открытых местностях. Живут стрижи крупными стаями. Большие колонии этих птиц можно увидеть в городах или на прибрежных скалах.',
-      image: 'https://live.staticflickr.com//65535//48386150031_7b749df74b.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/TMUAWSDHDJ/XC511871-G.mp3'
+      name: 'Таиланд',
+      species: 'Бангкок',
+      description: 'Государство в Юго-Восточной Азии, расположенное в юго-западной части полуострова Индокитай и в северной части полуострова Малакка.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/160px-Flag_of_Thailand.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248619511_cac8bf.mp3'
     }
   ],
   [
     {
       id: 1,
-      name: 'Жаворонок',
-      species: 'Alauda arvensis',
-      description: 'Жаворонки — перелетные птицы. С начала сентября они отлетают на юг. Возвращаются они в начале марта, независимо от того, сошел снег или нет. По прилету жаворонков определяли наступление весны и пору, когда пора пахать землю.',
-      image: 'https://live.staticflickr.com/65535/47105096764_f751fba568.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC462158-Skowronek_Alauda_arvensis_Poland_Jarek_Matusiak_%20-006%20skowronek%20%282%29.mp3'
+      name: 'Алжир',
+      species: 'Алжир',
+      description: 'Государство в Северной Африке в западной части Средиземноморского бассейна, крупнейшее по территории африканское государство. Площадь составляет 2 381 740 км², что чуть больше, чем у Демократической Республики Конго (2-е место по площади на континенте).',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1243714568_7b691a.mp3'
     },
     {
       id: 2,
-      name: 'Соловей',
-      species: 'Luscinia luscinia',
-      description: 'Соловьи поют с начала мая и до конца лета. Каждая песня соловья состоит из 12 повторяющихся элементов, которые еще называют коленами. Кроме собственных трелей, соловьи легко и хорошо перенимают пение других птиц.',
-      image: 'https://live.staticflickr.com/7605/27669397735_f3c21758f2.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/HILVWSADVL/XC513809-R07_0052%20Thrush%20Nightingale%20Snipe.mp3'
+      name: 'Египет',
+      species: 'Каир',
+      description: 'Государство, расположенное в Северной Африке и на Синайском полуострове Азии. На северо-востоке граничит с Израилем и частично признанным государством Палестиной, на юге — с Суданом, на западе — с Ливией. На севере территория страны омывается водами Средиземного, на востоке — Красного морей, при этом оба моря соединены посредством искусственно сооружённого Суэцкого канала. ',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1280px-Flag_of_Egypt.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248378231_87560c.mp3'
     },
     {
       id: 3,
-      name: 'Скворец',
-      species: 'Sturnus vulgaris',
-      description: 'Скворцы - перелётные птицы. Синхронный перелет больших стай скворцов называется мурмурацией. Это красивое и завораживающее явление – множество птиц будто танцуют в воздухе, образуя замысловатые фигуры, которые уменьшаются и увеличиваются в небе.',
-      image: 'https://live.staticflickr.com/65535/49357593971_9509fe1d7c.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC515519-2020.01.01_17.24_01.MP3'
+      name: 'Кения',
+      species: 'Найроби',
+      description: 'Государство в Восточной Африке. Является бывшей колонией Великобритании, получила независимость 12 декабря 1963 года. Входит в Содружество наций. На сегодняшний день страна является одной из наиболее динамично развивающихся среди стран Восточной Африки.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1280px-Flag_of_Kenya.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248379434_e05280.mp3'
     },
     {
       id: 4,
-      name: 'Иволга',
-      species: 'Oriolus oriolus',
-      description: 'Мелодичность голоса иволги сравнивают со звучанием флейты. Человеку сложно разглядеть иволгу, так как она обитает высоко на деревьях. Иволга не только очень красивая, но и  полезная птица. Она уничтожает ядовитых гусениц, которых не поедают другие птицы.',
-      image: 'https://live.staticflickr.com/65535/47102184004_58a93380b9.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC491801-2019.07.07_06.28_01.mp3'
+      name: 'Марокко',
+      species: 'Рабат',
+      description: 'Страна, которая вступила в Африканский союз в 1963 году, но с 1984 по 2017 год не являлась его членом из-за притязаний на Западную Сахару. Входит в Лигу Арабских государств, Союз арабского Магриба, Франкофонию, Организацию исламского сотрудничества, группу Средиземноморского диалога, группу 77.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248463892_804840.mp3'
     },
     {
       id: 5,
-      name: 'Свиристель',
-      species: 'Bombycilla garrulus',
-      description: 'У свиристели очень цепкие коготки, что помогает птице удерживаться на ветках и склевывать ягоды, которые труднее всего достать. В период ухаживаний самец предлагает самке ягоду или другое угощение. Если самка его принимает, то птицы создают пару.',
-      image: 'https://live.staticflickr.com//65535//49367433842_1b06da0e6b.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC517421-AB-004%20%282%29%20jemio%C5%82uszka.mp3'
+      name: 'Тунис',
+      species: 'Тунис',
+      description: 'Государство на крайнем севере Африки. Население, по итогам переписи июля 2017 года, составляет 11 403 800 человек, территория — 163 610 км². Занимает 82 место в мире по численности населения и девяносто первое по территории.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248622675_e7bc30.mp3'
     },
     {
       id: 6,
-      name: 'Щегол',
-      species: 'Carduelis carduelis',
-      description: 'Щеглы поют красиво и мелодично. И в природе, и в неволе они щебечут почти круглый год. В пении щегла различают более 20 переливчатых трелей. Щеглы привыкают к людям, и даже могут возвратиться к хозяину после того, как их выпустили на волю',
-      image: 'https://live.staticflickr.com//65535//49366257253_db3ce48b9a.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489265-190724_07.58h_putter_biesbosch_%20boompjes%20langs%20open%20water_zang_1ex_ad_niet%20gezien_.mp3'
+      name: 'Эфиопия',
+      species: 'Аддис-Абеба',
+      description: 'Государство в Восточной Африке, не имеющее выхода к морю (после отделения Эритреи 24 мая 1993 года). Население составляет более 100 миллионов человек, территория — 1 104 300 км², вторая (после Нигерии) по численности населения страна в Африке. Занимает 13-е место в мире по численности населения и 26-е по территории.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/1920px-Flag_of_Ethiopia.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248636222_4df645.mp3'
     }
   ],
   [
     {
       id: 1,
-      name: 'Орёл',
-      species: 'Aquila nipalensis',
-      description: 'В древние времена орел был символом солнца. Орлы часто парят над землей, при этом скорость их перемещения может достигать 240 км/ч. Иллюзия медленного движения происходит из-за высоты полета – более 700 метров',
-      image: 'https://live.staticflickr.com//4835//43867392960_7105d71e19.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/KTBTZAHSXF/10_Aquila_nipalensis_al02D85.mp3'
+      name: 'США',
+      species: 'Вашингтон',
+      description: 'Государство в Северной Америке. Площадь — 9,5 млн км² (4-е место в мире). Население — около 329 млн человек (2019, оценка; 3-е место в мире). США имеют федеративную форму устройства, административно делятся на 50 штатов и федеральный округ Колумбия; в их подчинении также находится ряд островных территорий (Пуэрто-Рико, Виргинские Острова, Гуам и другие).',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248619338_aae91b.mp3'
     },
     {
       id: 2,
-      name: 'Коршун',
-      species: 'Milvus migrans',
-      description: 'Коршуны – крупные хищники, в высоту они достигают около полуметра, а вес взрослых особей достигает 1 кг. Крылья узкие и длинные, их размах составляет 1,5 м. Коршуны часто гнездятся большими стаями и даже образуют крупные колонии.',
-      image: 'https://live.staticflickr.com//65535//48701190276_ee2a9ed594.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC485740-2019-06-22%20Selenga%20Milan%20brun%20cris%20de%20quemandage%203.mp3'
+      name: 'Канада',
+      species: 'Оттава',
+      description: 'Государство в Северной Америке, занимает второе место в мире по площади. Омывается Атлантическим, Тихим и Северным Ледовитым океанами, имея самую длинную береговую линию в мире. Граничит с США на юге и на северо-западе, также имеет морские границы с Данией (Гренландия) на северо-востоке и с Францией (Сен-Пьер и Микелон) на востоке.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/800px-Flag_of_Canada_%28Pantone%29.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1240517684_26162a.mp3'
     },
     {
       id: 3,
-      name: 'Лунь',
-      species: 'Circus cyaneus',
-      description: 'Лунь – это небольшой сокол. Питается в основном мышевидными грызунами, основа его рациона – полёвки, хомяки, мыши. Оперение луня может быть пепельно-серым. С такой птицей связано сравнение «седой, как лунь».',
-      image: 'https://live.staticflickr.com/4480/37240531151_b74619c99d.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC513498-190709_1175_Cir.cyan-f.mp3'
+      name: 'Бразилия',
+      species: 'Бразилиа',
+      description: 'Суверенное государство в Южной Америке. Площадь — 8 515 767 км² (эквивалентна 47,3 % южноамериканской территории). Будучи пятой среди стран мира по площади и шестой по численности населения (с более чем 207 млн жителей), Бразилия является наибольшей страной Южной Америки, как по территории, так и по численности населения.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1243948120_f9fda8.mp3'
     },
     {
       id: 4,
-      name: 'Сокол',
-      species: 'Falco peregrinus',
-      description: 'Латинское название сокола Falco произошло от слова «серп» из-за серповидной формы крыльев. Длинные и широкие крылья позволяют соколу высоко подниматься в небо и свободно парить. Скорость полёта сокола достигает 280-320 километров в час.',
-      image: 'https://live.staticflickr.com//65535//49310710607_92a3a145a9.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC496049-Pilgrimsfalk_06.mp3'
+      name: 'Мексика',
+      species: 'Мехико',
+      description: 'Государство в Северной Америке, на севере граничит с Соединёнными Штатами Америки, на юго-востоке — с Белизом и Гватемалой, на западе омывается водами Калифорнийского залива и Тихого океана, на востоке — водами Атлантического океана, Мексиканского залива и Карибского моря.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248464106_758252.mp3'
     },
     {
       id: 5,
-      name: 'Ястреб',
-      species: 'Accipiter gentilis',
-      description: 'Для всех ястребов характерны широкие и короткие крылья. Ещё один отличительный признак - белые «брови» над глазами. Славянские дружинники размещали изображение ястреба на своих знаменах, как символ отваги, мощи и безжалостности к врагам.',
-      image: 'https://live.staticflickr.com//65535//49024617331_b9d0d2c9b3.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC512740-Duvh%C3%B6k_09.mp3'
+      name: 'Аргентина',
+      species: 'Буэнос-Айрес',
+      description: 'Второе (после Бразилии) по территории и третье (после Бразилии и Колумбии) по населению государство Южной Америки, состоящее из 24 административных единиц — 23 провинций и федерального столичного округа Буэнос-Айрес.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248277752_72ca9e.mp3'
     },
     {
       id: 6,
-      name: 'Филин',
-      species: 'Bubo bubo',
-      description: 'Полет филина бесшумный, зрение очень острое. Эти особенности делают птицу непревзойденным ночным охотником. У филина нет естественных врагов, ни один зверь не охотится на взрослых птиц. А вот на птенцов нападают лисы и волки.',
-      image: 'https://live.staticflickr.com/65535/48137123012_393653c2e4.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC518386-sense%20t%C3%ADtol.mp3'
+      name: 'Парагвай',
+      species: 'Асунсьон',
+      description: 'Государство в Южной Америке, не имеющее выхода к морю. На юге и юго-западе граничит с Аргентиной, на северо-западе — с Боливией (она также без выхода к морю), на востоке и северо-востоке — с Бразилией. В переводе с языка гуарани «парагвай» означает «от великой реки» — подразумевается река Парана.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/1920px-Flag_of_Paraguay.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248616309_9e3367.mp3'
     }
   ],
   [
     {
       id: 1,
-      name: 'Альбатрос',
-      species: 'Diomedea exulans',
-      description: 'Альбатрос - самая крупная летающая птица в мире. Размах крыльев достигает три с половиной, вес - десять килограммов. Большую часть жизни альбатросы проводят в воздухе, покрывая над океанскими просторами огромные расстояния',
-      image: 'https://live.staticflickr.com/7557/16260253965_8e9430cb66.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/WOEAFQRMUD/XC293087-Diomedea%20exulans151120_T254.mp3'
+      name: 'Австралия',
+      species: 'Канберра',
+      description: 'Государство в Южном полушарии, занимающее одноимённый материк, остров Тасмания и несколько других островов Индийского и Тихого океанов[* 1]; является шестым государством по площади в мире.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1920px-Flag_of_Australia_%28converted%29.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1243712608_056e3b.mp3'
     },
     {
       id: 2,
-      name: 'Олуша',
-      species: 'Sula nebouxii',
-      description: 'Особенностью голубоногой олуши является не только насыщенный ярко-синий цвет лапок, но еще и тот факт, что они очень теплые. В то время как другие виды птиц греют кладки своим телом, голубоногая олуша делает это с помощью лапок',
-      image: 'https://live.staticflickr.com/800/40645471394_4422e69ed8.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/YHKQPPJDVP/XC411507-171217_1491%20BF%20Booby%205ft%20IDLP%201230%20mp3%20amp.mp3'
+      name: 'Новая Зеландия',
+      species: 'Веллингтон',
+      description: 'Государство в Полинезии. Население, по итогам официальной переписи 2013 года, составляет более 4 миллионов человек (по оценочным данным на начало 2017 года — более 4,8 миллионов человек), территория — 268 680 км², по обоим этим показателям является крупнейшей страной Океании.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1920px-Flag_of_New_Zealand.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248465698_c1cf16.mp3'
     },    
     {
       id: 3,
-      name: 'Буревестник',
-      species: 'Puffinus griseus',
-      description: 'Размеры буревестниковых разные. Самые маленькие из них в длину составляют до 25 см, самые большие - до 1 м, при размахе крыльев около 2 м. Существует поверье, что появление буревестника в воздухе предвещает бурю, о чем говорит само название птицы.',
-      image: 'https://live.staticflickr.com//607//22136056020_935cb113f9.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/XQEVNREHJY/SHEARWATER%20Christmas%20Island_04_Motu_Isla%20de%20Pascua-Easter%20Island_CH_4MAR03_Alvaro%20Jaramillo.mp3'
+      name: 'Палау',
+      species: 'Нгерулмуд',
+      description: 'Островное государство, ассоциированное с США, в Филиппинском море Тихого океана, расположенное в 800 км к востоку от Филиппин и к северу от Индонезии. Очень оригинальный флаг. Видимо весь креатив ушел на название столицы.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/1920px-Flag_of_Palau.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248616115_509a87.mp3'
     },
     {
       id: 4,
-      name: 'Пеликан',
-      species: 'Pelecanus',
-      description: 'Пеликаны — обитатели морей и рек. Ходят они неуклюже, но хорошо летают и плавают. Питаются в основном рыбой, устраивают коллективные охоты — выстроившись полукругом хлопают по воде крыльями и клювами и вытесняют напуганную рыбу на мелководье.',
-      image: 'https://live.staticflickr.com/65535/49159147156_dcbbb5c12a.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/XAMHIHFTZG/XC331138-call1.mp3'
+      name: 'Фиджи',
+      species: 'Сува',
+      description: 'Независимое государство в Океании на востоке Меланезии. Расположена на архипелаге Фиджи в юго-западной части Тихого океана, к северу от Новой Зеландии, к востоку от Вануату, к югу от Тувалу и к западу от Тонга.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1920px-Flag_of_Fiji.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248635418_a623ea.mp3'
     },
     {
       id: 5,
-      name: 'Пингвин',
-      species: 'Aptenodytes forsteri',
-      description: 'Самец императорского пингвина достигает роста 130 см, его масса может приближаться к 50 кг. Из всех современных пингвинов этот вид – самый крупный. Питание пингвина состоит из рыбы, кальмаров и криля. Охотятся птицы в океане большими группами.',
-      image: 'https://live.staticflickr.com/5202/5252413926_8e013a3efd.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC449827-LS100829%20King%20Penguin%20call%20A.mp3'
+      name: 'Папуа-Новая Гвинея',
+      species: 'Порт-Морсби',
+      description: 'Государство в Океании, в юго-западной части Тихого океана, занимает восточную часть острова Новая Гвинея, архипелаг Бисмарка, северную часть Соломоновых островов (о-ва Бугенвиль, Бука), о-ва Д’Антркасто и др. Площадь — 462 840 км².',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1280px-Flag_of_Papua_New_Guinea.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248616237_9f4d6f.mp3'
     },
     {
       id: 6,
-      name: 'Чайка',
-      species: 'Larus argentatus',
-      description: 'Чайки населяют берега морей, озёр, рек, водохранилищ, болот, часто гнездятся на островах. С конца прошлого века чайки стали появляться в крупных городах, где устраивает гнёзда на крышах зданий. Все чайки ведут колониальный образ жизни.',
-      image: 'https://live.staticflickr.com/65535/48577115317_7034201dde.jpg',
-      audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC501190-190801_06.50h_zilvermeeuw_duinen%20van%20goeree_roep_2ex_overvliegend_gezien_.mp3'
+      name: 'Вануату',
+      species: 'Порт-Вила',
+      description: 'Тихоокеанское государство в Меланезии. Граничит на севере с водами Соломоновых Островов, на западе — с экономической зоной Австралии, на юго-западе — с территориальными водами Новой Каледонии, на востоке — с территориальными водами Фиджи.',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/1920px-Flag_of_Vanuatu.svg.png',
+      audio: 'http://www.200stran.ru/media/country/1248376987_d7aac8.mp3'
     }
   ]
 ];

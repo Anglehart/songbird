@@ -53,7 +53,7 @@ h5 {
   overflow: hidden;
   display: flex;
   list-style: none;
-  background-color: #008966;
+  background-color: #f16b30;
 }
 .menu-item, .menu-item-active {
   padding: 10px 0;
@@ -61,7 +61,7 @@ h5 {
   text-align: center;
 }
 .menu-item-active {
-  background-color: #00bc8c;
+  background-color: #eb3d4f;
 }
 .first-row {
   margin-bottom: 25px;
