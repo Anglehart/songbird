@@ -94,9 +94,15 @@ class App extends React.Component {
             onClick={this.nextRound.bind(this)}
           >Следующий раунд</button>
         </div>
+        
         <div className={this.state.endGame ? "final-block" : "hide"}>
           <h1>Поздравляем!</h1>
-          <p>Вы прошли викторину и набрали {this.state.totalScore} из 30 возможных баллов</p>
+          <p>Вы прошли викторину и набрали {this.state.totalScore} из 30 возможных баллов.</p>
+          <div className={(this.state.totalScore === 30) ? "cake" : "hide"}>
+            <p>Абсолютная победа! Специально для тех, кто умеет пользоваться консолью, я "приготовил" торт.</p>
+            <img alt="Тортик" src="https://i1.theportalwiki.net/img/thumb/0/0a/Portal_Cake.png/200px-Portal_Cake.png" />
+            <p className="lie">The Cake is a lie</p>
+          </div>
           <button 
             className='next-btn final-btn'
             onClick={this.endGame.bind(this)}

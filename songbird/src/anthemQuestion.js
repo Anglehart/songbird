@@ -8,6 +8,7 @@ class AnthemQuestion extends React.Component {
     const userChoice = this.props.userChoice;
     const correctItem = this.props.correctItem;
     const isWon = this.props.isWon;
+    console.log(`Правильный ответ: ${this.props.correctItem.name}`);
     
     return (
       <div className="anthems-question-wrapper">
@@ -19,7 +20,7 @@ class AnthemQuestion extends React.Component {
           <AudioPlayer 
             customAdditionalControls = {[]}
             autoPlayAfterSrcChange = {false}
-            src={correctItem.audio}
+            src={!isWon ? correctItem.audio : ''}
           />
         </div>
       </div>
