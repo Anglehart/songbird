@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './header';
-import AnthemQuestion from './anthemQuestion';
-import AnthemsList from './anthemsList';
-import AnthemInfo from './anthemInfo';
+import Header from './header.component';
+import AnthemQuestion from './question.component';
+import AnthemsList from './list.component';
+import AnthemInfo from './info.component';
 import anthemsData from './assets/anthemsData';
 import './index.css';
 

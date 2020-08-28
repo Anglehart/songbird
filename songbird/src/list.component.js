@@ -1,5 +1,5 @@
 import React from 'react';
-import AnthemsItem from './anthemsItem';
+import AnthemsItem from './item.component';
 
 class AnthemsList extends React.Component { 
   render() {

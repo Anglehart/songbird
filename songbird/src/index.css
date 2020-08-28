@@ -214,6 +214,7 @@ h5 {
   background-color: #303030;
   border-radius: 4px;
   border: 1px solid #444 !important;
+  margin-bottom: 20px;
 }
 .final-block h1, .final-block p {
   text-align: center;
@@ -227,4 +228,31 @@ h5 {
 }
 .lie {
   color: #3a3939;
+}
+/*Responsive*/
+@media (max-width: 1020px) {
+  .anthems-list-wrapper, .anthem-info-wrapper {
+    width: 100%;
+  }
+  .anthems-list-wrapper {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .logo-score h5{
+    margin: auto;
+  }
+  .menu-item, .menu-item-active, .anthem-name, .logo {
+    width: 100%;
+  }
+  .anthems-question-wrapper, .anthem-info{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .question-image-audio {
+    margin: 0;
+  }
+  .question-image-audio h3 {
+    text-align: center;
+  }
 }
